@@ -1,14 +1,15 @@
+# Code behorend bij les 5 van course 2a (Python II)
+
 # Voorbeeld Auto 1
-'''
 class auto:
     def setSnelheid(self, v):
         self.snelheid = v
 
     def getSnelheid(self):
         return self.snelheid
-'''        
+######################################
+
 # Voorbeeld Auto 2
-'''
 class auto:
     def setSnelheid(self, v):
         if v>0 and v<200:
@@ -18,9 +19,9 @@ class auto:
 
     def getSnelheid(self):
         return self.snelheid
-'''
+######################################
+
 # Voorbeeld Auto 3
-'''
 class auto:
     def setSnelheid(self, v):
         if v>0 and v<200:
@@ -30,10 +31,9 @@ class auto:
 
     def getSnelheid(self):
         return self.__snelheid
-'''
+######################################
 
 # Opdracht 1
-'''
 class boom:
     def setHoogte(self,cm):
         self.hoogte = cm
@@ -46,9 +46,9 @@ class boom:
     
     def getBlaadjes(self):
         return self.type_blaadjes
-'''
+######################################
+
 # Voorbeeld Auto 5
-'''
 class auto:
 
     def __init__(self,v):
@@ -62,9 +62,9 @@ class auto:
 
     def getSnelheid(self):
         return self.__snelheid
-'''
+######################################
+
 # Opdracht 2
-'''
 class boom:
     def __init__(self, blad, hoogte)
         self.setHoogte(hoogte)
@@ -81,10 +81,9 @@ class boom:
     
     def getBlaadjes(self):
         return self.type_blaadjes
-'''
+######################################
 
 # Opdracht 3
-'''
 class boom:
     def __init__(self, blad, hoogte):
         self.setHoogte(hoogte)
@@ -108,9 +107,9 @@ class kerstboom (boom):
         
     def getDeco(self):
         return self.deco_lijst
-'''
+######################################
+
 # Voorbeeld Auto 6
-'''
 class auto:
 
     def __init__(self,v):
@@ -136,10 +135,9 @@ class elektrische_auto (auto):
         
     def getLading(self):
         return self.lading
-'''     
+######################################    
 
 # Opdracht 4
-'''
 class boom:
     def __init__(self, blad, hoogte):
         self.setHoogte(hoogte)
@@ -166,4 +164,4 @@ class kerstboom (boom):
         
     def getDeco(self):
         return self.deco_lijst
-'''
+######################################
